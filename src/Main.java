@@ -13,7 +13,7 @@ public class Main {
 
         Student[] students = {student1, student2, student3, student4, student5};
 
-
+        System.out.println("Tesssst");
         for (Student student : students) {
             summ += student.age;
             if (student.group.equals("Java")) {
